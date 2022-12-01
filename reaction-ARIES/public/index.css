@@ -1,0 +1,491 @@
+body {
+  margin: 0;
+  overflow-x: hidden !important;
+}
+
+h1 {
+  line-height: 0.1;
+}
+
+.subtitle {
+	font-size: 1.5rem;
+}
+
+/* Navbar */
+.nav-button {
+  position: fixed;
+	width: 100%;
+	border-radius: 0%;
+  z-index: 2;
+	bottom: 0;
+	font-weight: 600;
+	font-size: 40px;
+	border-top: solid 3px;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	background-color: #fff;
+	vertical-align: center;
+	border-color: #000;
+	color: #000;
+	padding: 0;
+}
+
+.nav-button:hover {
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+
+.aries-nav {
+  bottom: 0;
+  width: 100%;
+	background-color: #fff;
+}
+
+/* Title & Buttons */
+.title-container {
+  font-family: "Montserrat";
+  font-weight: 300;
+  background-image: linear-gradient(#000, #140f3b);
+  text-align: center;
+  color: white;
+  padding: 10% 0 6% 0;
+}
+
+.sub-bold {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+#title-text {
+  font-weight: 600;
+  font-size: 5rem;
+  margin-bottom: 40px;
+}
+
+#title-buttons {
+  text-align: center;
+  padding: 0 10% 11%;
+  background-image: linear-gradient(#140f3b, #121b5c);
+box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+}
+
+.map {
+	opacity: .1;
+	max-width: 100%;
+	height: auto;
+	position: absolute;
+	top: 60px;
+	left: -0.75rem;
+	z-index: 0;
+	margin-top: -1.5rem;
+}
+
+.genre-button {
+  font-family: "Montserrat";
+	font-size: 4.5vw;
+	font-size: 4.5vh;
+  border-radius: 5rem;
+  font-weight: 600;
+	text-shadow:
+	-2px 2px 4px #000,
+	2px 2px 4px #000,
+	2px -2px 4px #000,
+	-2px -2px 4px #000;
+	z-index: 1;
+	border-color: #fff;
+	background-color: #140f3b;
+	border-width: 3px;
+	box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+	
+}
+
+.genre-button:hover {
+	text-shadow:
+	-1px 1px 2px #fff,
+	1px 1px 2px #fff,
+	1px -1px 2px #fff,
+	-1px -1px 2px #fff;
+	border-color: #fff;
+}
+
+.pizza-sub-btn {
+  background-image: url('images/pizza-sub75.png');
+  background-size: cover;
+}
+
+.pizza-sub-btn:hover {
+	background-image: url('images/pizza-sub50.png');
+  background-size: cover;
+}
+
+.bars-diners-btn {
+  background-image: url('images/bars-diners75.png');
+  background-size: cover;
+}
+
+.bars-diners-btn:hover {
+  background-image: url('images/bars-diners50.png');
+  background-size: cover;
+}
+
+.asian-btn {
+  background-image: url('images/chinese75.png');
+  background-size: cover;
+}
+
+.asian-btn:hover {
+  background-image: url('images/chinese50.png');
+  background-size: cover;
+}
+
+.fast-food-btn {
+  background-image: url('images/fast-food75.png');
+  background-size: cover;
+}
+
+.fast-food-btn:hover {
+  background-image: url('images/fast-food50.png');
+  background-size: cover;
+}
+
+.treats-btn {
+  background-image: url('images/treats75.png');
+  background-size: cover;
+}
+
+.treats-btn:hover {
+  background-image: url('images/treats50.png');
+  background-size: cover;
+}
+
+.coffee-btn {
+  background-image: url('images/coffee75.png');
+  background-size: cover;
+}
+
+.coffee-btn:hover {
+  background-image: url('images/coffee50.png');
+  background-size: cover;
+}
+
+/* bellow is the webkit for the texts border on the buttons */
+.food2 {
+  text-decoration: none;
+  color: #fff;
+  /* -webkit-text-stroke: 0.01px black; */
+}
+
+.restaurant-column {
+  margin: .5rem 0 .5rem 0;
+}
+
+/* Restaurants */
+.res-card {
+padding: 1.5rem;
+}
+
+.genre-titles {
+  margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+  height: 10rem;
+  line-height: 10rem;
+  font-size: 6vw;
+  font-size: 6vh;
+  font-family: "Montserrat";
+  background-color: #192478;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+	box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+}
+
+#first-title {
+margin-top: 3rem;
+}
+
+.restaurant-title
+{
+  text-align: center;
+  font-family: sans-serif;
+	border-bottom: solid;
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+
+.restaurants {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+	text-align: center;
+}
+
+.restaurant-cards {
+  text-align: center;
+  padding: 0 2% 0;
+}
+
+.food-page
+{
+font-size: 1.8rem;
+border: solid;
+border-radius: 24px;
+border: solid;
+box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+}
+
+.restaurant-title {
+	text-align: left
+}
+
+.restaurant-title > h2 {
+	font-size: 2.5rem;
+	margin-top: 1.5rem;
+	margin-left: 1.5rem;
+	margin-bottom: -0.5rem;
+	font-weight: 600;
+}
+
+.restaurant-title > p {
+	font-size: 1rem;
+	margin-left: 1.5rem
+}
+
+.delivery-button
+{
+ width: 90%;
+ margin-bottom: .4rem;
+ font-size: 2.1rem;
+ border-radius: 24px;
+}
+
+.menu-button
+{
+width: 80%;
+margin-top: 2rem;
+margin-bottom: .4rem;
+font-size: 2.1rem;
+border-radius: 24px;
+}
+
+.website-button
+{
+ width: 90%;
+ font-size: 2.1rem;
+ border-radius: 24px;
+}
+
+.website-div
+{
+margin-bottom: 1.25rem;
+}
+
+.review-box {
+width: 20%;
+height: 50%;
+border-color: black;
+border-width: 1px;
+float: right;
+font-size: 1.2rem
+}
+
+.review {
+	margin: 1.5rem 1.5rem 0 1.5rem;
+	padding: 0.5rem;
+	border: solid;
+	border-radius: 15px;
+	font-size: 1.25rem;
+
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+	margin: 1.5rem 1.5rem 0 1.5rem;
+	padding: 0.5rem;
+	border: solid;
+	border-radius: 15px;
+	font-size: 1.25rem;
+	top: 50%;
+
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexFont > p {
+	margin-bottom: 0;
+}
+
+.separation-bar {
+	margin: 0 0.5rem 0 0.5rem;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+
+.order-buttons {
+	margin: auto 1rem auto 1rem;
+	font-weight: 600;
+	border: solid 3px;
+}
+
+.res-card-buttons {
+	margin: 1.5rem 0 1rem 0;
+}
+
+.secondary-info {
+	margin-top: -1.75rem;
+	font-weight: 600;
+}
+
+.cards-section-header {
+	font-weight: 600;
+	font-size: 1.5rem;
+	margin: 0.75rem 0 -1rem 0;
+}
+
+.footer {
+	margin-top: 1.5rem;
+	margin-bottom: 60px;
+  height: 10rem;
+  line-height: 10rem;
+  font-size: 2vw;
+  font-size: 2vh;
+  font-family: "Montserrat";
+  background-color: #e3e3e3;
+  color: #000;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.new-buttons {
+	font-size: 3rem;
+	/* width: 7rem; */
+	height: 7.6rem;
+	border-radius: 15px;
+	margin: 1rem 0.4rem 1rem 0.4rem;
+}
+
+.new-buttons > p {
+	font-size: 1.3rem;
+	/* margin: auto; */
+}
+
+.btn-primary-disabled {
+	background-color: #bfbfbf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* BORROWED CSS!!!! */
+.button-wrapper .btn {
+	margin: 20px 0px;
+}
+.button-wrapper {
+	display: flex;
+    flex-flow: column wrap;
+	justify-content: space-around;
+}
+a.btn>span.glyphicon {
+	margin-left: 12px;
+}
+@media (min-width: 500px) {
+  	.button-wrapper {
+		align-items: center;
+    	flex-flow: row wrap;
+    	-ms-flex-flow: row wrap;
+    	-webkit-flex-flow: row wrap;
+  	}
+	.btn-container-center>a.btn {
+		margin-left: 12px;
+		margin-right: 12px;
+	}
+	.btn-container-center {
+		justify-content: center;
+	}
+	.btn-container-center>a.btn:first-of-type {
+		margin-left: 0;
+	}
+	.btn-container-center>a.btn:last-of-type {
+		margin-right: 0;
+	}
+	.btn-container-left>a.btn {
+		margin-left: 12px;
+		margin-right: 12px;
+	}
+	.btn-container-left {
+		justify-content: flex-start;
+	}
+	.btn-container-left>a.btn:first-of-type {
+		margin-left: 0;
+	}
+	.btn-container-left>a.btn:last-of-type {
+		margin-right: 0;
+	}
+	.btn-container-right>a.btn {
+		margin-left: 12px;
+		margin-right: 12px;
+	}
+	.btn-container-right {
+		justify-content: flex-end;
+	}
+	.btn-container-right>a.btn:first-of-type {
+		margin-left: 0;
+	}
+	.btn-container-right>a.btn:last-of-type {
+		margin-right: 0;
+	}
+	.btn-container-stretch>a.btn {
+		margin-left: 12px;
+		margin-right: 12px;
+	}
+	.btn-container-stretch {
+		justify-content: space-between;
+	}
+	.btn-container-stretch>a.btn:first-of-type {
+		margin-left: 0;
+	}
+	.btn-container-stretch>a.btn:last-of-type {
+		margin-right: 0;
+	}
+	.btn-container-col-center {
+		flex-direction: column;
+		align-items: center;
+	}
+	.btn-container-col-left {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.btn-container-col-right {
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	/* TESTING */
+	.btn-fill-space .btn {
+	  margin: 20px;
+	  flex-grow: 1;
+	  transition-duration: 0.2s;
+	}
+	.btn-fill-space .btn:hover {
+	  flex-grow: 1.6;
+	}
+
+	.btn-always-col {
+		flex-flow: column wrap;
+		justify-content: space-around;
+	}
+	.btn-always-col>.btn {
+		width: 100%;
+	}
+}
