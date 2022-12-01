@@ -3,7 +3,7 @@ import React from 'react';
 function CreateCard(props) {
 	return (
 		<div>
-	
+			
 				<div className="food-page">
 					<div className="restaurant-title">
 						<h2>{props.name}</h2>
