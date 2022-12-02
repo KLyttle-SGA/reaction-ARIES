@@ -2,13 +2,13 @@ import React from "react";
 
 //var cardIsCollapsed = true;
 
-//function handleClick() {
+function handleClick() {
 //	if (cardIsCollapse = true) {
 //		var cardIsCollapse = false;
 //	} else {
 //		var cardIsCollapse = true;
 //	}
-//}
+}
 
 function Navbar() {
 	return (
