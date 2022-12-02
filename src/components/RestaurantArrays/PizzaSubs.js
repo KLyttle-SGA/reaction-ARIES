@@ -78,7 +78,7 @@ const PizzaSubs = [
 	},
 	{
 		key: 8,
-		name: "Clark Powell's",
+		name: "Clark Powell's Restaurant & Bar",
 		address: "125 S Center St, Ebensburg, PA 15931",
 		number: "(814) 472-8899",
 		description: "Right as you come into Ebensburg you can find this quaint little place called Clark Powell's with some wacky little pizzas.",
@@ -89,7 +89,7 @@ const PizzaSubs = [
 	},
 	{
 		key: 9,
-		name: "Smithmmeyer's",
+		name: "Smithmmeyer's Superette",
 		address: "163 St. Mary St, Loretto, PA 15940",
 		number: "(814) 472-8577",
 		description: "Local distributor of THE MEATS and MORE MEATS and also subs and maybe even other things. If you're looking for a handy couple of subs to feed to family you can always look to Smithmeyer's.",

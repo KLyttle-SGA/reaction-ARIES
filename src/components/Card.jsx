@@ -1,6 +1,9 @@
 import React from 'react';
 
+var cardIsCollapsed = true
+
 function CreateCard(props) {
+
 	return (
 		<div className="col-lg-6 col-md-12 res-card">
 			<div className="food-page">
@@ -8,18 +11,24 @@ function CreateCard(props) {
 					<h2>{props.name}</h2>
 					<p>{props.address} <span className="separation-bar"> | </span> {props.number}</p>
 				</div>
-				<div className="cards-section-header">
-					<p>Description</p>
-				</div>
-				<div className="description flexFont">
-					{props.description}
-				</div>
-				<div className="cards-section-header">
-					<p>Review</p>
-				</div>
-				<div className="review flexFont">
-					{props.review}
-				</div>
+
+				{cardIsCollapsed ? "" :
+						<div>
+						<div className="cards-section-header">
+							<p>Description</p>
+						</div>
+						<div className="description flexFont">
+							{props.description}
+						</div>
+						<div className="cards-section-header">
+							<p>Review</p>
+						</div>
+						<div className="review flexFont">
+							{props.review}
+						</div>
+					</div>
+				}
+
 
 				<div className="liquid-container">
 					<div className="row content">
