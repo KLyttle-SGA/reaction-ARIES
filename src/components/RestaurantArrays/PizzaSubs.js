@@ -1,4 +1,4 @@
-const pizzaSubRestaurants = [
+const PizzaSubs = [
     {
         key: 1,
         name: "Italian Village Pizza",
@@ -17,7 +17,9 @@ const pizzaSubRestaurants = [
 		number: "(814) 472-2202",
 		description: "Just across the road from the Cresson Railroad Park stands everyone's favorite money laundering scheme, Vito's \"Cash-Only\" Restaurant & Pizzeria. Bring in your hard-earned green paper and you'll be treated to their pizza, stromboli, subs, and much more.",
 		review: "Another regular choice of the office, especially handy for whenever you have a famished grandmother in intense need of a good stromboli.",
-		menu: "https://www.zmenu.com/vitos-restaurant-and-pizzeria-cresson-online-menu/"
+		menu: "https://www.zmenu.com/vitos-restaurant-and-pizzeria-cresson-online-menu/",
+		order: "",
+		website: ""
 	},
 	{
 		key: 3,
@@ -109,4 +111,4 @@ const pizzaSubRestaurants = [
 	}
 ];
 
-export default pizzaSubRestaurants;
+export default PizzaSubs;

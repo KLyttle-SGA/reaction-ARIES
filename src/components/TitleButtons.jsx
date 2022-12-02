@@ -1,0 +1,47 @@
+import React from "react";
+
+function TitleButtons() {
+	return (
+		<section id="title-buttons">
+
+			<div className="row restaurant-genre">
+
+				<div button type="button" className="restaurant-column col-lg-6">
+					<a href="#pizza-sub" className="d-grid gap-2 food2">
+						<button className="pizza-sub-btn btn btn-primary py-4 genre-button" type="button">Pizza & Subs</button>
+					</a>
+				</div>
+				<div button type="button" className="restaurant-column col-lg-6">
+					<a href="#bars-diners" className="d-grid gap-2 food2">
+						<button className="bars-diners-btn btn btn-primary py-4 genre-button" type="button">Bars & Diners</button>
+					</a>
+				</div>
+				<div button type="button" className="restaurant-column col-lg-6">
+					<a href="#asian" className="d-grid gap-2 food2">
+						<button className="asian-btn btn btn-primary py-4 genre-button" type="button">Asian</button>
+					</a>
+				</div>
+				<div button type="button" className="restaurant-column col-lg-6">
+					<a href="#fast-food" className="d-grid gap-2 food2">
+						<button className="fast-food-btn btn btn-primary py-4 genre-button" type="button">Fast Food</button>
+					</a>
+				</div>
+				<div button type="button" className="restaurant-column col-lg-6">
+					<a href="#treats" className="d-grid gap-2 food2">
+						<button className="treats-btn btn btn-primary py-4 genre-button" type="button">Treats</button>
+					</a>
+				</div>
+				<div button type="button" className="restaurant-column col-lg-6">
+					<a href="#coffee" className="d-grid gap-2 food2">
+						<button className="coffee-btn btn btn-primary py-4 genre-button" type="button">Coffee</button>
+					</a>
+				</div>
+
+				<img className="map" src="images/map.png" alt="map-img" />
+
+			</div>
+		</section>
+	);
+}
+
+export default TitleButtons;
