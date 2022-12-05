@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\RestaurantArrays"
   ],
-  "SelectedNode": "\\C:\\Users\\kaden.lyttle\\Source\\Repos\\reaction-ARIES",
+  "SelectedNode": "\\node_modules",
   "PreviewInSolutionExplorer": false
 }

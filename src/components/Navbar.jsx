@@ -1,16 +1,12 @@
 import React from "react";
 
-//var cardIsCollapsed = true;
+function Navbar(props) {
 
-function handleClick() {
-//	if (cardIsCollapse = true) {
-//		var cardIsCollapse = false;
-//	} else {
-//		var cardIsCollapse = true;
-//	}
-}
+	function handleClick(props) {
+		props.handleCardCollapse()
+		console.log(props)
+	}
 
-function Navbar() {
 	return (
 		<div className="aries-nav">
 			<div className="nav-shadow">

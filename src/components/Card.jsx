@@ -1,6 +1,6 @@
 import React from 'react';
 
-var cardIsCollapsed = true
+var isCardCollapsed = true
 
 function CreateCard(props) {
 
@@ -12,7 +12,7 @@ function CreateCard(props) {
 					<p>{props.address} <span className="separation-bar"> | </span> {props.number}</p>
 				</div>
 
-				{cardIsCollapsed ? "" :
+				{isCardCollapsed ? "" :
 						<div>
 						<div className="cards-section-header">
 							<p>Description</p>
