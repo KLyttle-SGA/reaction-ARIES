@@ -8,18 +8,16 @@ import Footer from './components/Footer.jsx';
 function App() {
 
 	const [isCardCollapsed, setIsCardCollapsed] = React.useState(false)
-	function handleCardCollapse() {
+	function handleCardCollapsed() {
 		setIsCardCollapsed(!isCardCollapsed) 
 	}
 
   return (
 	<div>
-		<Navbar
-			  handleCardCollapse={handleCardCollapse}
-		/>
+		<Navbar handleCardCollapsed={handleCardCollapsed} />
 		<Title />
 		<TitleButtons />
-		<Restaurants />
+		<Restaurants isCardCollapsed={isCardCollapsed} />
 		<Footer />
 	</div>
   );

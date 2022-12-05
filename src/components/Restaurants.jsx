@@ -6,22 +6,24 @@ import Treats from '../components/RestaurantArrays/Treats.js';
 import Coffee from '../components/RestaurantArrays/Coffee.js';
 import CreateCard from '../components/Card.jsx';
 
-function CreatePSCard(psItem) {
-	return (
-		<CreateCard
-			name={psItem.name}
-			address={psItem.address}
-			number={psItem.number}
-			description={psItem.description}
-			review={psItem.review}
-			menu={psItem.menu}
-			order={psItem.order}
-			website={psItem.website}
-		/>
-	)
-}
+function Restaurants(props) {
 
-function Restaurants() {
+	function CreatePSCard(psItem) {
+		return (
+			<CreateCard
+				name={psItem.name}
+				address={psItem.address}
+				number={psItem.number}
+				description={psItem.description}
+				review={psItem.review}
+				menu={psItem.menu}
+				order={psItem.order}
+				website={psItem.website}
+				isCardCollapsed={props.isCardCollapsed}
+			/>
+		)
+	}
+
 	return (
 		<div>
 		<span id="pizza-sub"></span>

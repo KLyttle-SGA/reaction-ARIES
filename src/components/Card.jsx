@@ -1,7 +1,5 @@
 import React from 'react';
 
-var isCardCollapsed = true
-
 function CreateCard(props) {
 
 	return (
@@ -9,12 +7,12 @@ function CreateCard(props) {
 			<div className="food-page">
 				<div className="restaurant-title">
 					<h2>{props.name}</h2>
-					<p>{props.address} <span className="separation-bar"> | </span> {props.number}</p>
+					<p>{props.address} <span className="separation-bar"> |</span> {props.number}</p>
 				</div>
 
-				{isCardCollapsed ? "" :
-						<div>
-						<div className="cards-section-header">
+				{props.isCardCollapsed ? "" :
+					<div>
+						<div className="cards-section-header description-title top-border">
 							<p>Description</p>
 						</div>
 						<div className="description flexFont">
@@ -26,11 +24,12 @@ function CreateCard(props) {
 						<div className="review flexFont">
 							{props.review}
 						</div>
-					</div>
-				}
+				{/*Show buttons when low info.*/}
+				{/*	</div>*/}
+				{/*}*/}
 
 
-				<div className="liquid-container">
+				<div className="liquid-container top-border button-top-margin">
 					<div className="row content">
 						<div className="col-4">
 							<div className="button-wrapper btn-fill-space">
@@ -55,14 +54,17 @@ function CreateCard(props) {
 						<div className="col-4">
 							<div className="button-wrapper btn-fill-space">
 							<a type="button" target="_blank" rel="noreferrer noopener" href={props.website} className={`btn ${props.website.length > 0 ? "btn-primary" : "btn-primary-disabled"} new-buttons ${props.website.length > 0 ? "" : "disabled"}`}>
-								<i className="fa-regular fa-window-maximize"></i>
+								<i class="fa-solid fa-window-maximize"></i>
 								<br/>
 								<p>WEB</p>
 							</a>
 							</div>
 						</div>
 					</div>
-				</div>
+					</div>
+				{/*Do not show buttons when low info:*/}
+					</div>
+				}
 			</div>
 		</div>
 	)	

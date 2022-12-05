@@ -89,11 +89,11 @@ const PizzaSubs = [
 	},
 	{
 		key: 9,
-		name: "Smithmmeyer's Superette",
+		name: "Smithmeyer's Superette",
 		address: "163 St. Mary St, Loretto, PA 15940",
 		number: "(814) 472-8577",
 		description: "Local distributor of THE MEATS and MORE MEATS and also subs and maybe even other things. If you're looking for a handy couple of subs to feed to family you can always look to Smithmeyer's.",
-		review: "Very popular around these parts for their subs, you'll usually find people ordering some for the family if they can't be bothered to cook.",
+		review: "Very popular around these parts for their subs, you'll usually find people ordering some for the family if they can't be bothered to cook. High quality subs for the whole gang!",
 		menu: "https://www.smithmyers-superette.com/",
 		order: "https://www.smithmyers-superette.com/",
 		website: "https://www.smithmyers-superette.com/"

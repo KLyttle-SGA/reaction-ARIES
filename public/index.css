@@ -1,16 +1,13 @@
 body {
 	margin: 0;
 	overflow-x: hidden !important;
-	background-color: #e0f2ff;
-	background-image: url("https://transparenttextures.com/patterns/cubes.png");
+
+	background-color: #e0edff;
+	background-image: url("https://transparenttextures.com/patterns/always-grey.png");
 }
 
 h1 {
   line-height: 0.1;
-}
-
-.subtitle {
-	font-size: 1.5rem;
 }
 
 /* Navbar */
@@ -24,23 +21,34 @@ h1 {
 	border-color: #000;
 	color: #000;
 	padding: 0;
-	margin-bottom: 0.5em;
+	margin-bottom: 20px;
 	margin-left: 0.5em;
 }
 
 .to-top {
-	width: 1.6em;
+	width: 80px;
+	height: 80px;
 	border-radius: 50%;
 	z-index: 3;
 	box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.5);
 }
 
 .toggle-collapse {
-	padding: 0 0.5em 0 1.6em;
-	border-radius: 15px;
-	z-index: 2;
-	margin-left: 0.9em;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	z-index: 3;
+	margin-left: 3.8em;
 	box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.5);
+	font-size: 30px;
+}
+
+.to-top > i {
+	margin-top: 18px;
+}
+
+.toggle-collapse > i {
+	margin-top: 22px;
 }
 
 .nav-button:hover {
@@ -51,23 +59,34 @@ h1 {
 
 /* Title & Buttons */
 .title-container {
-  font-family: "Montserrat";
-  font-weight: 300;
-  background-image: linear-gradient(#000, #140f3b);
-  text-align: center;
-  color: white;
-  padding: 10% 0 6% 0;
+	font-family: "Montserrat";
+	font-weight: 300;
+	background-image: linear-gradient(#000, #140f3b);
+	text-align: center;
+	color: white;
+	padding: 10% 0 6% 0;
+}
+
+.subtitle {
+	font-size: 1.5rem;
+	background: -webkit-linear-gradient(#feffc9, #ffab73);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .sub-bold {
-  font-weight: 600;
-  font-size: 2rem;
+	font-weight: 600;
+	font-size: 2rem;
 }
 
 #title-text {
-  font-weight: 600;
-  font-size: 5rem;
-  margin-bottom: 40px;
+	font-weight: 600;
+	font-size: 5rem;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	background: -webkit-linear-gradient(#73abff, #feffc9);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 #title-buttons {
@@ -214,7 +233,6 @@ margin-top: 3rem;
 {
   text-align: center;
   font-family: sans-serif;
-	border-bottom: solid;
 	font-family: "Montserrat";
 	font-weight: 600;
 }
@@ -254,7 +272,16 @@ background-color: #fff;
 
 .restaurant-title > p {
 	font-size: 1rem;
-	margin-left: 1.5rem
+	margin-left: 1.5rem;
+
+}
+
+.top-border {
+	border-top: solid;
+}
+
+.button-top-margin {
+	margin-top: 1.5rem;
 }
 
 .review-box {
@@ -291,6 +318,10 @@ font-size: 1.2rem
   align-items: center;
 }
 
+.description-title > p {
+	margin-top: 0.5rem;
+}
+
 .flexFont > p {
 	margin-bottom: 0;
 }
@@ -323,21 +354,28 @@ font-size: 1.2rem
 }
 
 .footer {
-	margin-top: 1.5rem;
-	margin-bottom: 60px;
-  height: 10rem;
-  line-height: 10rem;
-  font-size: 2vw;
-  font-size: 2vh;
+  margin-top: 6rem;
+  font-size: 22px;
   font-family: "Montserrat";
+  font-weight: 600;
   color: #000;
   text-align: center;
   vertical-align: middle;
+  line-height: 15px;
+}
+
+.small-footer {
+	height: 8rem;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: "Montserrat";
+	color: #000;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .new-buttons {
 	font-size: 3rem;
-	/* width: 7rem; */
 	height: 7.6rem;
 	border-radius: 15px;
 	margin: 1rem 0.4rem 1rem 0.4rem;
@@ -345,7 +383,6 @@ font-size: 1.2rem
 
 .new-buttons > p {
 	font-size: 1.3rem;
-	/* margin: auto; */
 }
 
 .btn-primary-disabled {
@@ -365,7 +402,7 @@ a.btn>span.glyphicon {
 	margin-left: 12px;
 }
 @media (min-width: 500px) {
-  	.button-wrapper {
+/*  	.button-wrapper {
 		align-items: center;
     	flex-flow: row wrap;
     	-ms-flex-flow: row wrap;
@@ -434,7 +471,7 @@ a.btn>span.glyphicon {
 	.btn-container-col-right {
 		flex-direction: column;
 		align-items: flex-end;
-	}
+	}*/
 
 	/* TESTING */
 	.btn-fill-space .btn {

@@ -2,9 +2,8 @@ import React from "react";
 
 function Navbar(props) {
 
-	function handleClick(props) {
-		props.handleCardCollapse()
-		console.log(props)
+	function handleClick() {
+		props.handleCardCollapsed()
 	}
 
 	return (
@@ -13,8 +12,8 @@ function Navbar(props) {
 			<a href="#title" className="btn btn-outline-primary nav-button to-top" type="button">
 				<i className="fa-solid fa-caret-up"></i>
 			</a>
-				<a onClick={handleClick} className="btn btn-outline-primary nav-button toggle-collapse" type="button">
-				Toggle Collapse
+			<a onClick={handleClick} className="btn btn-outline-primary nav-button toggle-collapse" type="button">
+				<i class="fa-regular fa-window-restore"></i>
 			</a>
 			</div>
 		</div>
