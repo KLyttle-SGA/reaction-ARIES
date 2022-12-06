@@ -14,7 +14,7 @@ const PizzaSubs = [
 		key: 2,
         name: "Vito's",
 		address: "207 W High St, Ebensburg, PA 15931",
-		number: "(814) 472-2202",
+		number: "(814) 886-4145",
 		description: "Just across the road from the Cresson Railroad Park stands everyone's favorite money laundering scheme, Vito's \"Cash-Only\" Restaurant & Pizzeria. Bring in your hard-earned green paper and you'll be treated to their pizza, stromboli, subs, and much more.",
 		review: "Another regular choice of the office, especially handy for whenever you have a famished grandmother in intense need of a good stromboli.",
 		menu: "https://www.zmenu.com/vitos-restaurant-and-pizzeria-cresson-online-menu/",
