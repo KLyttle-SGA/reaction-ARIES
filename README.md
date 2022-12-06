@@ -3,5 +3,7 @@ ARIES, the Aggregation of Restaurants for Insatiable Employees of SGA, keeps tab
 
 Original ARIES Repo: https://github.com/Quick4Tech/ARIES
 
-# reaction-ARIES
+Original ARIES Link: https://aries.sgasoftware.com/
+
+# About reaction-ARIES
 As my contemporary junior dev, Liam, has been stuck in the phase of learning Bootstrap, I have taken up the mantle of shoving React into ARIES so the HTML code to render all the restaurants is no longer over 2,000 lines.
