@@ -27,7 +27,7 @@ const PizzaSubs = [
 		address: "881 Hills Plaza St. 505, Ebensburg, PA 15931",
 		number: "(814) 318-8505",
 		description: "According to our professional pizza tasters, G.I. Dough is home to the best pizza around town. It's very thick and very filling, be ready to save some of that pizza for leftovers.",
-		review: "As stated before, if you're coming for anything, you're probably coming for the pizza. Everything else on their menu is fairly meh.",
+		review: "As stated before, if you're coming for anything, you're probably coming for the pizza. Everything else on their menu is fairly meh. There wasn't much the office could agree on being good otherwise.",
 		menu: "https://weborder7.microworks.com/riknniks/Groups",
 		order: "https://weborder7.microworks.com/riknniks/Groups",
 		website: "http://www.rik-n-niks.com/"
@@ -37,8 +37,8 @@ const PizzaSubs = [
         name: "Rik n' Nik's",
 		address: "220 West High St, Ebensburg, PA 15931",
 		number: "(814) 472-6006",
-		description: "Rik n' Nik's is the local pizza joint home to all of the good food... except for good pizza. Quite the odd combination, wouldn't you say? Only few locations can rival this.",
-		review: "Pizza is some of the worst around, but what they lack in pizza they make up for in wings, salads, and other foods that aren't pizza.",
+		description: "Rik n' Nik's is the local pizza joint home to all of the good food... except for bread, and by extension the pizza. Quite the odd combination, wouldn't you say? Only few locations can rival this.",
+		review: "Pizza is some of the worst around, but what they lack in bread they make up for in wings, salads, and other Italian foods that don't involve copious amounts of bread.",
 		menu: "https://weborder7.microworks.com/riknniks/Groups",
 		order: "https://weborder7.microworks.com/riknniks/Groups",
 		website: "http://www.rik-n-niks.com/"

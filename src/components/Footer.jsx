@@ -6,9 +6,8 @@ function Footer() {
       <div>
 		<div className="footer">
           <p>Stock, Garber, and Associates - {year}</p>
-          <div className="small-footer">
-             <p>Kaden Lyttle, Liam Creek</p>
-          </div>
+          <p className="small-footer">Kaden Lyttle, Liam Creek</p>
+          <p className="smaller-footer">(v. rA-Alpha)</p>
         </div>
       </div>
   );

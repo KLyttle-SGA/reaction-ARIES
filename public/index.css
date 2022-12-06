@@ -47,8 +47,12 @@ h1 {
 	margin-top: 18px;
 }
 
-.toggle-collapse > i {
+.nav-maximize {
 	margin-top: 22px;
+}
+
+.nav-minimize {
+	margin-top: 12px;
 }
 
 .nav-button:hover {
@@ -61,10 +65,11 @@ h1 {
 .title-container {
 	font-family: "Montserrat";
 	font-weight: 300;
-	background-image: linear-gradient(#000, #140f3b);
+	background-image: linear-gradient(#121b5caa, #140f3b);
 	text-align: center;
 	color: white;
 	padding: 10% 0 6% 0;
+	text-shadow: 0px 0px 3px rgba(66,167,245,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .subtitle {
@@ -72,11 +77,13 @@ h1 {
 	background: -webkit-linear-gradient(#feffc9, #ffab73);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .sub-bold {
 	font-weight: 600;
 	font-size: 2rem;
+	text-shadow: 0px 0px 3px rgba(245,206,66,0.2), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
 }
 
 #title-text {
@@ -95,16 +102,9 @@ h1 {
 	background-image: linear-gradient(#140f3b, #121b5c);
 }
 
-.map {
-	opacity: .05;
+#title {
+	background-image: url(./images/map.png);
 	width: 100%;
-	/*	height: auto;*/
-	position: absolute;
-	left: -0.25rem;
-	z-index: 0;
-	margin-top: -1.5rem;
-	background: none;
-	background-clip: content-box;
 }
 
 .genre-button {
@@ -356,7 +356,7 @@ font-size: 1.2rem
 
 .footer {
   margin-top: 6rem;
-  font-size: 22px;
+  font-size: 24px;
   font-family: "Montserrat";
   font-weight: 600;
   color: #000;
@@ -366,13 +366,21 @@ font-size: 1.2rem
 }
 
 .small-footer {
-	height: 8rem;
-	font-size: 14px;
+	font-size: 19px;
 	font-weight: 300;
 	font-family: "Montserrat";
 	color: #000;
 	text-align: center;
 	vertical-align: middle;
+	height: 6rem;
+}
+
+.smaller-footer {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 600;
+	background: #ffdb24;
+	margin: 0;
 }
 
 .new-buttons {

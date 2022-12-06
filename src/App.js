@@ -14,12 +14,9 @@ function App() {
 
   return (
 	<div>
-		<div className="border-box">
-{/*			<img className="map" src="images/map.png" alt="map-img" />*/}
-			<Navbar handleCardCollapsed={handleCardCollapsed} />
-			<Title />
-			<TitleButtons />
-		</div>
+		<Navbar handleCardCollapsed={handleCardCollapsed} isCardCollapsed={isCardCollapsed} />
+		<Title />
+		<TitleButtons />
 		<Restaurants isCardCollapsed={isCardCollapsed} />
 		<Footer />
 	</div>

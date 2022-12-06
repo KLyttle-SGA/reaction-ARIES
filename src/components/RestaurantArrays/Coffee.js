@@ -15,7 +15,7 @@ const Coffee = [
 		name: "Dunkin' Donuts",
 		address: "542 S Center St, Ebensburg, PA 15931",
 		number: "(814) 203-4084",
-		description: "America runs, walks, works, and sleeps on Dunkin's coffee and donuts.",
+		description: "America runs, walks, works, and sleeps on Dunkin's coffee and donuts. I mean, as long as said Americans aren't going to Starbucks or Sheetz.",
 		review: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
 		menu: "https://www.dunkindonuts.com/en/menu",
 		order: "https://www.dunkindonuts.com/en/dunkin-delivers",
