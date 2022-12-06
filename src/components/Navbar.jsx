@@ -13,7 +13,7 @@ function Navbar(props) {
 				<i className="fa-solid fa-caret-up"></i>
 			</a>
 			<a onClick={handleClick} className="btn btn-outline-primary nav-button toggle-collapse" type="button">
-				<i class="fa-regular fa-window-restore"></i>
+				<i className="fa-regular fa-window-restore"></i>
 			</a>
 			</div>
 		</div>

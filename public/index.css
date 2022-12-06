@@ -96,14 +96,15 @@ h1 {
 }
 
 .map {
-	opacity: .1;
-	max-width: 100%;
-	height: auto;
+	opacity: .05;
+	width: 100%;
+	/*	height: auto;*/
 	position: absolute;
-	top: 60px;
-	left: -0.75rem;
+	left: -0.25rem;
 	z-index: 0;
 	margin-top: -1.5rem;
+	background: none;
+	background-clip: content-box;
 }
 
 .genre-button {

@@ -37,8 +37,6 @@ function TitleButtons() {
 					</a>
 				</div>
 
-				<img className="map" src="images/map.png" alt="map-img" />
-
 			</div>
 		</section>
 	);

@@ -54,7 +54,7 @@ function CreateCard(props) {
 						<div className="col-4">
 							<div className="button-wrapper btn-fill-space">
 							<a type="button" target="_blank" rel="noreferrer noopener" href={props.website} className={`btn ${props.website.length > 0 ? "btn-primary" : "btn-primary-disabled"} new-buttons ${props.website.length > 0 ? "" : "disabled"}`}>
-								<i class="fa-solid fa-window-maximize"></i>
+								<i className="fa-solid fa-window-maximize"></i>
 								<br/>
 								<p>WEB</p>
 							</a>
