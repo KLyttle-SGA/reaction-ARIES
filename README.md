@@ -2,6 +2,7 @@
 ARIES, the Aggregation of Restaurants for Insatiable Employees of SGA, keeps tabs on favorite restaurants within the general vicinity of Ebensburg, Pennsylvania. Here you can easily find links to check out of order from almost any local restaurant you can think of. The site was developed and maintained by Kaden Lyttle and Liam Creek, two junior developers at SGA.
 
 Original ARIES Repo: https://github.com/Quick4Tech/ARIES
+
 Original ARIES Link: https://aries.sgasoftware.com/
 
 # reaction-ARIES
