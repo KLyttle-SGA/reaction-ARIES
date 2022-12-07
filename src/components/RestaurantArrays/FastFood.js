@@ -2,7 +2,7 @@ const FastFood = [
 	{
 		key: 1,
 		name: "McDonald's",
-		address: "4374 Admiral Peary Hwy, Ebensburg, PA 15931",
+		address: "4374 Admiral Peary Hwy, Ebensburg",
 		number: "(814) 419-8222",
 		description: "You see those golden arches and you know you're in for some consistent processed food. It's the largest fast food chain in the world, you all know it.",
 		review: "It's McDonalds, it's okay for when you're driving through somewhere unfamiliar and gotta find something. Unless it's fresh fries or McFlurries, in which case walk right through their doors.",
@@ -13,7 +13,7 @@ const FastFood = [
 	{
 		key: 2,
 		name: "Wendy's",
-		address: "842 Hills Plaza, Ebensburg, PA 15931",
+		address: "842 Hills Plaza, Ebensburg",
 		number: "(814) 472-4619",
 		description: "A career that's run in the Stock family for generations, we at SGA are very familiar with Dave's famous chops, square patties, and ice cream frosties.",
 		review: "Wendy's hasn't gotten much better over the years, there's been quite a few odd changes with the food there recently. New worse buns and fries and even the frosties have been a little off.",
@@ -24,10 +24,10 @@ const FastFood = [
 	{
 		key: 3,
 		name: "Kentucky Fried Chicken",
-		address: "4490 Admiral Peary Hwy, Ebensburg, PA 15931",
+		address: "4490 Admiral Peary Hwy, Ebensburg",
 		number: "(814) 419-7008",
 		description: "Just off the highway next to Starbucks and AT&T sits a favorite of the great people of Nippon, the colonel's famous fried chicken.",
-		review: "Now, I may be a little biased as a part time KFC employee, but the chicken is leagues better than the chicken you see at any other fast food chain around here.",
+		review: "Now, I may be a little biased as a part time KFC employee, but the chicken is leagues better than what you'll be finding at almost any other fast food chain around here.",
 		menu: "https://www.kfc.com/menu",
 		order: "https://www.kfc.com/menu",
 		website: "https://www.kfc.com/"
@@ -35,7 +35,7 @@ const FastFood = [
 	{
 		key: 4,
 		name: "Burger King",
-		address: "285 Jamesway Rd, Ebensburg, PA 15931",
+		address: "285 Jamesway Rd, Ebensburg",
 		number: "(814) 472-5194",
 		description: "We've got the court jester, the princess, and the queen, and the royal farmer all accounted for, but what of the king of fast food?",
 		review: "Ironically, the King always seems to be dead last in discussions of the major players in the fast food kingdom outside of their Whoppers, onion rings, and more varied fries.",
@@ -46,7 +46,7 @@ const FastFood = [
 	{
 		key: 5,
 		name: "Taco Bell",
-		address: "4482 Admiral Peary Hwy, Ebensburg, PA 15931",
+		address: "4482 Admiral Peary Hwy, Ebensburg",
 		number: "(814) 419-4992",
 		description: "I'm at the Pizza Hut. I'm at the Taco Bell. I'm at the combination no Pizza Hut and Taco Bell. Everyone knows Taco Bell, America's biggest taco chain.",
 		review: "Mediocre tacos, not much else. La Fiesta is right down the street if you're looking for Mexican food instead of \"Mexican\" \"food\".",
@@ -57,7 +57,7 @@ const FastFood = [
 	{
 		key: 6,
 		name: "Dairy Queen: Grill & Chill",
-		address: "267 Park Hills Plaza, Altoona, PA 16602",
+		address: "267 Park Hills Plaza, Altoona",
 		number: "(814) 419-8233",
 		description: "Formerly the Dairy Queen, her empire has slowly expanded over the last few years. The mad monarch has invaded the lands of Fastfoodia with a vengeance.",
 		review: "Pretty average, there's definitely other restaurants you'd probably consider for fast food over Dairy Queen. Usually short-staffed.",
@@ -68,7 +68,7 @@ const FastFood = [
 	{
 		key: 7,
 		name: "Sheetz",
-		address: "818 W High St, Ebensburg, PA 15931",
+		address: "818 W High St, Ebensburg",
 		number: "(814) 471-6750",
 		description: "It's everywhere, there's two on every street in central Pennsylvania, you can never escape Sheetz's unending reach.",
 		review: "\"They may make good food, but at the expense of humanity.If you want to know if slavery still exists, look no further.\" - Mitsuri Kanroji",

@@ -2,7 +2,7 @@ const Treats = [
 	{
 		key: 1,
 		name: "The Meadows",
-		address: "169 Mini Mall Rd, Ebensburg, PA 15931",
+		address: "169 Mini Mall Rd, Ebensburg",
 		number: "(814) 472-2003",
 		description: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
 		review: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
@@ -13,7 +13,7 @@ const Treats = [
 	{
 		key: 2,
 		name: "Mid's Candy",
-		address: "3135 New Germany Rd #41, Ebensburg, PA 15931",
+		address: "3135 New Germany Rd #41, Ebensburg",
 		number: "(814) 472-6546",
 		description: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
 		review: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
@@ -24,7 +24,7 @@ const Treats = [
 	{
 		key: 3,
 		name: "Krispy Kreme",
-		address: "3680 Benjamin Franklin Hwy, Belsano, PA 15922",
+		address: "3680 Benjamin Franklin Hwy, Belsano",
 		number: "(814) 749-7889",
 		description: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
 		review: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",

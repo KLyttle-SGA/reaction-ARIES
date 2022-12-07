@@ -2,12 +2,32 @@ import React from 'react';
 
 function CreateCard(props) {
 
+	var viewportWidth = window.innerWidth
+
+	function getViewportWidth() {
+	viewportWidth = window.innerWidth
+	};
+
+	window.onresize = function (event) {
+		viewportWidth = window.innerWidth
+		getViewportWidth();
+		console.log(viewportWidth);
+	};
+
 	return (
 		<div className="col-lg-6 col-md-12 res-card">
 			<div className="food-page">
 				<div className="restaurant-title">
-					<h2>{props.name}</h2>
-					<p>{props.address} <span className="separation-bar"> |</span> {props.number}</p>
+					<h2 className="">{props.name}</h2>
+					{viewportWidth > 1368 ?
+						<div className="address-number">
+							<p>{props.address} <span className="separation-bar"> |</span> {props.number}</p>
+						</div> :
+						<div className="address-number">
+							<p className="single-line-address">{props.address}</p>
+							<p className="single-line-number">{props.number}</p>
+						</div>
+					}
 				</div>
 
 				{props.isCardCollapsed ? "" :
@@ -66,7 +86,7 @@ function CreateCard(props) {
 					</div>
 				}
 			</div>
-		</div>
+			</div>
 	)	
 };
 

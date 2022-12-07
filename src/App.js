@@ -15,8 +15,10 @@ function App() {
   return (
 	<div>
 		<Navbar handleCardCollapsed={handleCardCollapsed} isCardCollapsed={isCardCollapsed} />
-		<Title />
-		<TitleButtons />
+		<div className="title-shadow">
+			<Title />
+			<TitleButtons />
+		</div>
 		<Restaurants isCardCollapsed={isCardCollapsed} />
 		<Footer />
 	</div>
