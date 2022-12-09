@@ -1,7 +1,7 @@
 const PizzaSubs = [
     {
         key: 1,
-        name: "Italian Village Pizza",
+        name: "IVP",
 		address: "207 W High St, Ebensburg",
 		number: "(814) 472-2202",
 		description: "A favorite of residents all throughout Ebensburg from the SGA offices to the local students hanging out before buying a vape on the block over. It's got a very wide selection with everything from pizza to salad to wings.",

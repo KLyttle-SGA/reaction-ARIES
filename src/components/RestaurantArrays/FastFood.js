@@ -23,7 +23,7 @@ const FastFood = [
 	},
 	{
 		key: 3,
-		name: "Kentucky Fried Chicken",
+		name: "KFC",
 		address: "4490 Admiral Peary Hwy, Ebensburg",
 		number: "(814) 419-7008",
 		description: "Just off the highway next to Starbucks and AT&T sits a favorite of the great people of Nippon, the colonel's famous fried chicken.",
@@ -56,7 +56,7 @@ const FastFood = [
 	},
 	{
 		key: 6,
-		name: "Dairy Queen: Grill & Chill",
+		name: "D.Q: Grill & Chill",
 		address: "267 Park Hills Plaza, Altoona",
 		number: "(814) 419-8233",
 		description: "Formerly the Dairy Queen, her empire has slowly expanded over the last few years. The mad monarch has invaded the lands of Fastfoodia with a vengeance.",

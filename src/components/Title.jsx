@@ -10,7 +10,7 @@ function Title() {
 					{/*<span className="sub-bold">R</span>EACTING⠀*/}
 					<span className="sub-bold">A</span>GGREGATION⠀OF⠀
 					<span className="sub-bold">R</span>ESTAURANTS⠀FOR⠀
-					{/*					<br />*/}
+										<br className="enable-title-break"/>
 					THE⠀
 					{/*<span className="sub-bold">I</span>DLE,⠀*/}
 					{/*<span className="sub-bold">T</span>ENACIOUS,⠀AND⠀*/}
