@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\src",
-    "\\src\\components",
-    "\\src\\components\\RestaurantArrays"
+    "\\node_modules",
+    "\\node_modules\\@mui",
+    "\\node_modules\\@mui\\material"
   ],
-  "SelectedNode": "\\public\\index.html",
   "PreviewInSolutionExplorer": false
 }

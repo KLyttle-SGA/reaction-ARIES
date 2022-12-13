@@ -214,7 +214,6 @@ h1 {
 /* Restaurants */
 .res-card {
 padding: 1.5rem;
-
 }
 
 .genre-titles {
@@ -259,14 +258,19 @@ margin-top: 3rem;
   padding: 0 2% 0;
 }
 
-.food-page
-{
+.food-page {
 font-size: 1.8rem;
 border: solid;
 border-radius: 24px;
 border: solid;
 box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
 background-color: #fff;
+}
+
+.column-flexbox {
+	flex-direction: row;
+	justify-content: stretch;
+	flex: auto;
 }
 
 .restaurant-title {
@@ -284,7 +288,7 @@ background-color: #fff;
 .address-number {
 	font-size: 1rem;
 	margin-left: 1.5rem;
-
+	margin-top: 0.5rem;
 }
 
 .single-line-address {
@@ -399,13 +403,25 @@ background-color: #fff;
 	display: none
 }
 
+.break-2card {
+	display: none;
+}
+
+.bar-2card {
+	display: inline;
+}
+
+.break-1card {
+	display: none;
+}
+
+.bar-1card {
+	display: none;
+}
+
 @media (max-width: 575px) {
 	.disable-icons-mobile {
 		display: none;
-	}
-
-	.enable-title-break {
-		display: inline
 	}
 
 	.subtitle {
@@ -424,10 +440,6 @@ background-color: #fff;
 
 	.flexFont {
 		font-size: 1rem;
-	}
-
-	.address-number {
-		margin-top: 0.5rem;
 	}
 }
 

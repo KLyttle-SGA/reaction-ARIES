@@ -1,32 +1,25 @@
 import React from 'react';
 
+// THIS ABSOLUTELY NEEDS REDONE IT'S FORMATTED TOO DUMB!
+
 function CreateCard(props) {
 
-	//var viewportWidth = window.innerWidth
-
-	//function getViewportWidth() {
-	//viewportWidth = window.innerWidth
-	//};
-
-	//window.onresize = function (event) {
-	//	viewportWidth = window.innerWidth
-	//	getViewportWidth();
-	//	console.log(viewportWidth);
-	//};
-
 	return (
-		<div className="col-lg-6 col-md-12 res-card">
+		<div className="col-lg-6 col-md-12 res-card column-flexbox">
 			<div className="food-page">
 				<div className="restaurant-title">
 					<h2 className="">{props.name}</h2>
-						<div className="address-number">
+					<div className="address-number">
 						<p>
 							{props.address}
-							<span className="separation-bar d-none d-xs-none d-sm-none d-md-none d-lg-inline"> |</span>
-							<br className="d-lg-none d-xl-none" />
+							<br/>
+							{/*<span className="separation-bar bar-2card">|</span>*/}
+							{/*<br className="card-info-break break-2card" />*/}
+							{/*<span className="separation-bar bar-1card">|</span>*/}
+							{/*<br className="card-info-break break-1card" />*/}
 							{props.number}
 						</p>
-						</div>
+					</div>
 
 				</div>
 
@@ -52,6 +45,7 @@ function CreateCard(props) {
 				<div className="liquid-container top-border button-top-margin">
 					<div className="row content">
 						<div className="col-sm-4 col-xs-12">
+
 							<div className="button-wrapper btn-fill-space">
 									<a type="button" target="_blank" rel="noreferrer noopener" href={props.menu} className={`btn ${props.menu.length > 0 ? "btn-primary" : "btn-primary-disabled"} new-buttons ${props.menu.length > 0 ? "" : "disabled"}`}>
 											<i className="fa-solid fa-scroll disable-icons-mobile"></i>
