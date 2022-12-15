@@ -68,8 +68,12 @@ h1 {
 	background-image: linear-gradient(#121b5caa, #140f3b);
 	text-align: center;
 	color: white;
-	padding: 8.5% 0 6% 0;
+	padding: 8.5% 0 1% 0;
 	text-shadow: 0px 0px 3px rgba(66,167,245,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.title {
+	margin-bottom: 3rem;
 }
 
 .subtitle {
@@ -90,7 +94,7 @@ h1 {
 	font-weight: 600;
 	font-size: 5vw;
 	padding-bottom: 40px;
-	padding-top: 40px;
+	padding-top: 35px;
 	background: -webkit-linear-gradient(#73abff, #feffc9);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -104,13 +108,29 @@ h1 {
 
 #title-buttons {
 	text-align: center;
-	padding: 0 10% 12%;
+	padding: 0 10% 12% 10%;
 	background-image: linear-gradient(#140f3b, #121b5c);
 }
 
 #title {
 	background-image: url(./images/map.png);
 	width: 100%;
+}
+
+.search-bar {
+	border-radius: 5rem;
+	height: 3.5rem;
+	width: 60%;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	align-items: center;
+	text-align: center;
+	display: inline-block;
+	font-weight: 600;
+}
+
+.form-group {
+	text-align: center;
 }
 
 .genre-button {

@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\node_modules",
-    "\\node_modules\\@mui",
-    "\\node_modules\\@mui\\material"
+    "\\public",
+    "\\src",
+    "\\src\\components"
   ],
+  "SelectedNode": "\\src\\components\\Title.jsx",
   "PreviewInSolutionExplorer": false
 }
