@@ -1,6 +1,6 @@
 ﻿import React from "react";
 
-function Title() {
+function TitleName() {
 	return (
 		<section id="title">
 
@@ -22,7 +22,7 @@ function Title() {
 				</div>
 
 				<form className="form-group">
-					<input type="search" className="form-control search-bar" id="search" placeholder="Search" autocomplete="off"/>
+					<input type="search" className="form-control search-bar" id="search" placeholder="Search" autoComplete="off"/>
 				</form>
 
 			</div>
@@ -31,4 +31,4 @@ function Title() {
 	);
 }
 
-export default Title;
+export default TitleName;

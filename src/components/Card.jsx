@@ -37,50 +37,50 @@ function CreateCard(props) {
 						<div className="review flexFont">
 							{props.review}
 						</div>
-				{/*Show buttons when low info.*/}
-				{/*	</div>*/}
-				{/*}*/}
+					{/*Show buttons when low info.*/}
+					{/*	</div>*/}
+					{/*}*/}
 
 
-				<div className="liquid-container top-border button-top-margin">
-					<div className="row content">
-						<div className="col-sm-4 col-xs-12">
+						<div className="liquid-container top-border button-top-margin">
+							<div className="row content">
+								<div className="col-sm-4 col-xs-12">
 
-							<div className="button-wrapper btn-fill-space">
-									<a type="button" target="_blank" rel="noreferrer noopener" href={props.menu} className={`btn ${props.menu.length > 0 ? "btn-primary" : "btn-primary-disabled"} new-buttons ${props.menu.length > 0 ? "" : "disabled"}`}>
+									<div className="button-wrapper btn-fill-space">
+										<a type="button" target="_blank" rel="noreferrer noopener" href={props.menu} className={`btn ${props.menu.length > 0 ? "btn-primary" : "btn-primary-disabled"} new-buttons ${props.menu.length > 0 ? "" : "disabled"}`}>
 											<i className="fa-solid fa-scroll disable-icons-mobile"></i>
 											<br className="disable-icons-mobile" />
-									<p>MENU</p>
-								</a>
-							</div>
-						</div>
+											<p>MENU</p>
+										</a>
+									</div>
+								</div>
 
 								<div className="col-sm-4 col-xs-12">
-							<div className="button-wrapper btn-fill-space">
+									<div className="button-wrapper btn-fill-space">
 										<a type="button" target="_blank" rel="noreferrer noopener" href={props.order} className={`btn ${props.order.length > 0 ? "btn-primary" : "btn-primary-disabled"} new-buttons ${props.order.length > 0 ? "" : "disabled"}`}>
 											<i className="fa-solid fa-truck-ramp-box disable-icons-mobile"></i>
 											<br className="disable-icons-mobile" />
-									<p>ORDER</p>
-								</a>
-							</div>
-						</div>
+											<p>ORDER</p>
+										</a>
+									</div>
+								</div>
 
 								<div className="col-sm-4 col-xs-12">
-							<div className="button-wrapper btn-fill-space">
+									<div className="button-wrapper btn-fill-space">
 										<a type="button" target="_blank" rel="noreferrer noopener" href={props.website} className={`btn ${props.website.length > 0 ? "btn-primary" : "btn-primary-disabled"} new-buttons ${props.website.length > 0 ? "" : "disabled"}`}>
 											<i className="fa-solid fa-window-maximize disable-icons-mobile"></i>
 											<br className="disable-icons-mobile"/>
-								<p>WEB</p>
-							</a>
+											<p>WEB</p>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					</div>
-				{/*Do not show buttons when low info:*/}
+					{/*Do not show buttons when low info:*/}
 					</div>
 				}
 			</div>
-			</div>
+		</div>
 	)	
 };
 

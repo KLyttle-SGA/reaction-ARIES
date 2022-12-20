@@ -56,7 +56,7 @@ const FastFood = [
 	},
 	{
 		key: 6,
-		name: "D.Q: Grill & Chill",
+		name: "Dairy Queen",
 		address: "267 Park Hills Plaza, Altoona",
 		number: "(814) 419-8233",
 		description: "Formerly the Dairy Queen, her empire has slowly expanded over the last few years. The mad monarch has invaded the lands of Fastfoodia with a vengeance.",
