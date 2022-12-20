@@ -461,35 +461,52 @@ background-color: #fff;
 	.flexFont {
 		font-size: 1rem;
 	}
+
+	.enable-title-break {
+		display: block;
+	}
 }
 
-/* BORROWED CSS!!!! */
-.button-wrapper .btn {
-	margin: 20px 0px;
+@media (max-width: 380px) {
+	.restaurant-title > h2 {
+		font-size: 1.7rem;
+	}
+	.address-number > p {
+		font-size: 0.8rem;
+	}
 }
-.button-wrapper {
-	display: flex;
-    flex-flow: column wrap;
-	justify-content: space-around;
-}
-a.btn>span.glyphicon {
-	margin-left: 12px;
-}
-/*@media (min-width: 1px) {*/
+
+	/* BORROWED CSS!!!! */
+	.button-wrapper .btn {
+		margin: 20px 0px;
+	}
+
+	.button-wrapper {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: space-around;
+	}
+
+	a.btn > span.glyphicon {
+		margin-left: 12px;
+	}
+	/*@media (min-width: 1px) {*/
 	/* TESTING */
 	.btn-fill-space .btn {
-	  margin: 20px;
-	  flex-grow: 1;
-	  transition-duration: 0.2s;
+		margin: 20px;
+		flex-grow: 1;
+		transition-duration: 0.2s;
 	}
-	.btn-fill-space .btn:hover {
-	  flex-grow: 1.6;
-	}
+
+		.btn-fill-space .btn:hover {
+			flex-grow: 1.6;
+		}
 
 	.btn-always-col {
 		flex-flow: column wrap;
 		justify-content: space-around;
 	}
-	.btn-always-col>.btn {
-		width: 100%;
-	}
+
+		.btn-always-col > .btn {
+			width: 100%;
+		}
