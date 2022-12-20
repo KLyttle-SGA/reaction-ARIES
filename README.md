@@ -6,4 +6,4 @@ Original ARIES Repo: https://github.com/Quick4Tech/ARIES
 Original ARIES Link: https://aries.sgasoftware.com/
 
 # About reaction-ARIES
-As my contemporary junior dev, Liam, has been stuck in the phase of learning Bootstrap, I have taken up the mantle of shoving React into ARIES so the HTML code to render all the restaurants is no longer over 2,000 lines.
+As my fellow junior dev, Liam, has been stuck in the phase of learning Bootstrap, I have taken up the mantle of shoving React into ARIES so the HTML code to render the entire list of restaurant data can stop being over 2,000 lines where you have to edit everything individually.
