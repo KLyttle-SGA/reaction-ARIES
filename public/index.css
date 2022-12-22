@@ -1,3 +1,5 @@
+/* Page-wide */
+
 body {
 	margin: 0;
 	overflow-x: hidden !important;
@@ -11,6 +13,7 @@ h1 {
 }
 
 /* Navbar */
+
 .nav-button {
 	position: fixed;
 	bottom: 0;
@@ -62,6 +65,7 @@ h1 {
 }
 
 /* Title & Buttons */
+
 .title-container {
 	font-family: "Montserrat";
 	font-weight: 300;
@@ -123,10 +127,6 @@ h1 {
 	font-weight: 600;
 }
 
-/*.form-group {
-	text-align: center;
-}*/
-
 .genre-button {
   font-family: "Montserrat";
 	font-size: 3.5vw;
@@ -155,70 +155,126 @@ h1 {
 	border-color: #fff;
 }
 
+.title-button {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.card-button {
+	font-size: 3rem;
+	height: 7.6rem;
+	border-radius: 15px;
+	margin: 1rem 0.4rem 1rem 0.4rem;
+}
+
+.card-button > p {
+	font-size: 1.3rem;
+}
+
+.btn-primary-disabled {
+	background-color: #bfbfbf;
+}
+
+.enable-title-break {
+	display: none
+}
+
+/* BORROWED CSS!!!! */
+.button-wrapper .btn {
+	margin: 20px 0px;
+}
+
+.button-wrapper {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+}
+
+a.btn > span.glyphicon {
+	margin-left: 12px;
+}
+/*@media (min-width: 1px) {*/
+/* TESTING */
+.btn-fill-space .btn {
+	margin: 20px;
+	flex-grow: 1;
+	transition-duration: 0.2s;
+}
+
+.btn-fill-space .btn:hover {
+	flex-grow: 1.6;
+}
+
+.btn-always-col {
+	flex-flow: column wrap;
+	justify-content: space-around;
+}
+
+.btn-always-col > .btn {
+	width: 100%;
+}
+
+/* Title button images. */
+
 .pizza-sub-btn {
-  background-image: url('images/pizza-sub75.png');
-  background-size: cover;
+	background-image: url('images/pizza-sub75.png');
+	background-size: cover;
 }
 
 .pizza-sub-btn:hover {
 	background-image: url('images/pizza-sub50.png');
-  background-size: cover;
+	background-size: cover;
 }
 
 .bars-diners-btn {
-  background-image: url('images/bars-diners75.png');
-  background-size: cover;
+	background-image: url('images/bars-diners75.png');
+	background-size: cover;
 }
 
 .bars-diners-btn:hover {
-  background-image: url('images/bars-diners50.png');
-  background-size: cover;
+	background-image: url('images/bars-diners50.png');
+	background-size: cover;
 }
 
 .asian-btn {
-  background-image: url('images/chinese75.png');
-  background-size: cover;
+	background-image: url('images/chinese75.png');
+	background-size: cover;
 }
 
 .asian-btn:hover {
-  background-image: url('images/chinese50.png');
-  background-size: cover;
+	background-image: url('images/chinese50.png');
+	background-size: cover;
 }
 
 .fast-food-btn {
-  background-image: url('images/fast-food75.png');
-  background-size: cover;
+	background-image: url('images/fast-food75.png');
+	background-size: cover;
 }
 
 .fast-food-btn:hover {
-  background-image: url('images/fast-food50.png');
-  background-size: cover;
+	background-image: url('images/fast-food50.png');
+	background-size: cover;
 }
 
 .treats-btn {
-  background-image: url('images/treats75.png');
-  background-size: cover;
+	background-image: url('images/treats75.png');
+	background-size: cover;
 }
 
 .treats-btn:hover {
-  background-image: url('images/treats50.png');
-  background-size: cover;
+	background-image: url('images/treats50.png');
+	background-size: cover;
 }
 
 .coffee-btn {
-  background-image: url('images/coffee75.png');
-  background-size: cover;
+	background-image: url('images/coffee75.png');
+	background-size: cover;
 }
 
 .coffee-btn:hover {
-  background-image: url('images/coffee50.png');
-  background-size: cover;
-}
-
-/* bellow is the webkit for the texts border on the buttons */
-.food2 {
-  text-decoration: none;
-  color: #fff;
+	background-image: url('images/coffee50.png');
+	background-size: cover;
 }
 
 .restaurant-column {
@@ -226,6 +282,7 @@ h1 {
 }
 
 /* Restaurants */
+
 .res-card {
 	padding: 1.5rem;
 }
@@ -359,6 +416,8 @@ h1 {
 	margin: 0.75rem 0 -1rem 0;
 }
 
+/* Footer */
+
 .footer {
   margin-top: 6rem;
   font-size: 24px;
@@ -388,76 +447,11 @@ h1 {
 	margin: 0;
 }
 
-.new-buttons {
-	font-size: 3rem;
-	height: 7.6rem;
-	border-radius: 15px;
-	margin: 1rem 0.4rem 1rem 0.4rem;
-}
-
-.new-buttons > p {
-	font-size: 1.3rem;
-}
-
-.btn-primary-disabled {
-	background-color: #bfbfbf;
-}
-
 .enable-title-break {
 	display: none
 }
 
-.break-2card {
-	display: none;
-}
-
-.bar-2card {
-	display: inline;
-}
-
-.break-1card {
-	display: none;
-}
-
-.bar-1card {
-	display: none;
-}
-
-	/* BORROWED CSS!!!! */
-	.button-wrapper .btn {
-		margin: 20px 0px;
-	}
-
-	.button-wrapper {
-		display: flex;
-		flex-flow: column wrap;
-		justify-content: space-around;
-	}
-
-	a.btn > span.glyphicon {
-		margin-left: 12px;
-	}
-	/*@media (min-width: 1px) {*/
-	/* TESTING */
-	.btn-fill-space .btn {
-		margin: 20px;
-		flex-grow: 1;
-		transition-duration: 0.2s;
-	}
-
-		.btn-fill-space .btn:hover {
-			flex-grow: 1.6;
-		}
-
-	.btn-always-col {
-		flex-flow: column wrap;
-		justify-content: space-around;
-	}
-
-		.btn-always-col > .btn {
-			width: 100%;
-		}
-
+/* Mobile view and @media wackiness. */
 
 @media (max-width: 1080px) {
 	#title-text {

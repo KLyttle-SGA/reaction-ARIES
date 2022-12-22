@@ -47,7 +47,7 @@ function CreateCard(props) {
 								<div className="col-sm-4 col-xs-12">
 
 									<div className="button-wrapper btn-fill-space">
-										<a type="button" target="_blank" rel="noreferrer noopener" href={props.menu} className={`btn ${props.menu.length > 0 ? "btn-primary" : "btn-primary-disabled"} new-buttons ${props.menu.length > 0 ? "" : "disabled"}`}>
+										<a type="button" target="_blank" rel="noreferrer noopener" href={props.menu} className={`btn ${props.menu.length > 0 ? "btn-primary" : "btn-primary-disabled"} card-button ${props.menu.length > 0 ? "" : "disabled"}`}>
 											<i className="fa-solid fa-scroll disable-icons-mobile"></i>
 											<br className="disable-icons-mobile" />
 											<p>MENU</p>
@@ -57,7 +57,7 @@ function CreateCard(props) {
 
 								<div className="col-sm-4 col-xs-12">
 									<div className="button-wrapper btn-fill-space">
-										<a type="button" target="_blank" rel="noreferrer noopener" href={props.order} className={`btn ${props.order.length > 0 ? "btn-primary" : "btn-primary-disabled"} new-buttons ${props.order.length > 0 ? "" : "disabled"}`}>
+										<a type="button" target="_blank" rel="noreferrer noopener" href={props.order} className={`btn ${props.order.length > 0 ? "btn-primary" : "btn-primary-disabled"} card-button ${props.order.length > 0 ? "" : "disabled"}`}>
 											<i className="fa-solid fa-truck-ramp-box disable-icons-mobile"></i>
 											<br className="disable-icons-mobile" />
 											<p>ORDER</p>
@@ -67,7 +67,7 @@ function CreateCard(props) {
 
 								<div className="col-sm-4 col-xs-12">
 									<div className="button-wrapper btn-fill-space">
-										<a type="button" target="_blank" rel="noreferrer noopener" href={props.website} className={`btn ${props.website.length > 0 ? "btn-primary" : "btn-primary-disabled"} new-buttons ${props.website.length > 0 ? "" : "disabled"}`}>
+										<a type="button" target="_blank" rel="noreferrer noopener" href={props.website} className={`btn ${props.website.length > 0 ? "btn-primary" : "btn-primary-disabled"} card-button ${props.website.length > 0 ? "" : "disabled"}`}>
 											<i className="fa-solid fa-window-maximize disable-icons-mobile"></i>
 											<br className="disable-icons-mobile"/>
 											<p>WEB</p>
