@@ -100,12 +100,6 @@ h1 {
 	-webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 1080px) {
-	#title-text {
-		font-size: 3.75rem;
-	}
-}
-
 #title-buttons {
 	text-align: center;
 	padding: 0 10% 12% 10%;
@@ -129,9 +123,9 @@ h1 {
 	font-weight: 600;
 }
 
-.form-group {
+/*.form-group {
 	text-align: center;
-}
+}*/
 
 .genre-button {
   font-family: "Montserrat";
@@ -233,21 +227,21 @@ h1 {
 
 /* Restaurants */
 .res-card {
-padding: 1.5rem;
+	padding: 1.5rem;
 }
 
 .genre-titles {
-  margin-bottom: 1.5rem;
+	margin-bottom: 1.5rem;
 	margin-top: 1.5rem;
-  height: 10rem;
-  line-height: 10rem;
-  font-size: 6vw;
-  font-size: 6vh;
-  font-family: "Montserrat";
-  background-color: #192478;
-  color: #fff;
-  text-align: center;
-  vertical-align: middle;
+	height: 10rem;
+	line-height: 10rem;
+	font-size: 6vw;
+	font-size: 6vh;
+	font-family: "Montserrat";
+	background-color: #192478;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
 	box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
 }
 
@@ -256,35 +250,35 @@ padding: 1.5rem;
 }
 
 #first-title {
-margin-top: 3rem;
+	margin-top: 3rem;
 }
 
 .restaurant-title
 {
-  text-align: center;
-  font-family: sans-serif;
+	text-align: center;
+	font-family: sans-serif;
 	font-family: "Montserrat";
 	font-weight: 600;
 }
 
 .restaurants {
-  font-family: "Montserrat";
-  font-size: 1.5rem;
+	font-family: "Montserrat";
+	font-size: 1.5rem;
 	text-align: center;
 }
 
 .restaurant-cards {
-  text-align: center;
-  padding: 0 2% 0;
+	text-align: center;
+	padding: 0 2% 0;
 }
 
 .food-page {
-font-size: 1.8rem;
-border: solid;
-border-radius: 24px;
-border: solid;
-box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
-background-color: #fff;
+	font-size: 1.8rem;
+	border: solid;
+	border-radius: 24px;
+	border: solid;
+	box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+	background-color: #fff;
 }
 
 .column-flexbox {
@@ -311,15 +305,6 @@ background-color: #fff;
 	margin-top: 0.5rem;
 }
 
-.single-line-address {
-	margin-top: 0.5rem;
-}
-
-.single-line-number {
-	line-height: 0;
-	margin-bottom: 2rem;
-}
-
 .top-border {
 	border-top: solid;
 }
@@ -334,10 +319,9 @@ background-color: #fff;
 	border: solid;
 	border-radius: 15px;
 	font-size: 1.25rem;
-
 	display: flex;
-  justify-content: center;
-  align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .description {
@@ -439,43 +423,6 @@ background-color: #fff;
 	display: none;
 }
 
-@media (max-width: 575px) {
-	.disable-icons-mobile {
-		display: none;
-	}
-
-	.subtitle {
-		font-size: 3.5vw;
-	}
-
-	.sub-bold {
-		font-size: 4.25vw;
-	}
-
-	.new-buttons {
-		display: block;
-		float: none;
-		height: 3rem;
-	}
-
-	.flexFont {
-		font-size: 1rem;
-	}
-
-	.enable-title-break {
-		display: block;
-	}
-}
-
-@media (max-width: 380px) {
-	.restaurant-title > h2 {
-		font-size: 1.7rem;
-	}
-	.address-number > p {
-		font-size: 0.8rem;
-	}
-}
-
 	/* BORROWED CSS!!!! */
 	.button-wrapper .btn {
 		margin: 20px 0px;
@@ -510,3 +457,48 @@ background-color: #fff;
 		.btn-always-col > .btn {
 			width: 100%;
 		}
+
+
+@media (max-width: 1080px) {
+	#title-text {
+		font-size: 3.75rem;
+	}
+}
+
+@media (max-width: 575px) {
+	.disable-icons-mobile {
+		display: none;
+	}
+
+	.subtitle {
+		font-size: 3.5vw;
+	}
+
+	.sub-bold {
+		font-size: 4.25vw;
+	}
+
+	.new-buttons {
+		display: block;
+		float: none;
+		height: 3rem;
+	}
+
+	.flexFont {
+		font-size: 1rem;
+	}
+
+	.enable-title-break {
+		display: block;
+	}
+}
+
+@media (max-width: 380px) {
+	.restaurant-title > h2 {
+		font-size: 1.7rem;
+	}
+
+	.address-number > p {
+		font-size: 0.8rem;
+	}
+}

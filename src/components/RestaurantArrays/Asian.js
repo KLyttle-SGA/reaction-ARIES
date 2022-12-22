@@ -4,8 +4,8 @@ const Asian = [
 		name: "Little Tokyo",
 		address: "2720 Plank Rd, Altoona",
 		number: "(814) 472-7461",
-		description: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
-		review: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
+		description: "Not too far from Aki is a more traditional Asian restaurant with about everything you'd expect.",
+		review: "Likely the favorite local-ish Asian food among the office and associates if we're not looking for hibachi.",
 		menu: "https://order.mealkeyway.com/merchant/4366675939597a39724a4341544678493372443955673d3d/main",
 		order: "https://order.mealkeyway.com/merchant/4366675939597a39724a4341544678493372443955673d3d/main",
 		website: "https://www.littletokyopa.com/"
@@ -15,8 +15,8 @@ const Asian = [
 		name: "Aki",
 		address: "267 Park Hills Plaza, Altoona",
 		number: "(814) 942-2118",
-		description: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
-		review: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
+		description: "Once again the only hibachi around the area since the unfortunate demise of Wasabi.",
+		review: "Varies a bit over the years, but generally reliably good meals.",
 		menu: "https://akialtoona.weebly.com/menu.html",
 		order: "https://order.aki2118.com/",
 		website: "https://akialtoona.weebly.com/"
@@ -26,8 +26,8 @@ const Asian = [
 		name: "New China",
 		address: "7447 Admiral Peary Hwy, Cresson",
 		number: "(814) 886-5689",
-		description: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
-		review: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
+		description: "The last remaining bastion in the nearby area of Cresson and Ebensburg for not awful Asian food.",
+		review: "Opinions from the office seem to be middling, not amazing, not awful. Way better option than Hong Xin.",
 		menu: "http://www.restaurantji.com/pa/cresson/new-china-/menu/",
 		order: "",
 		website: ""

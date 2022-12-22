@@ -60,7 +60,7 @@ const BarsDiners = [
 		address: "4554 Admiral Peary Hwy, Ebensburg",
 		number: "(814) 472-8004",
 		description: "Imagine going up against giants like Taco Bell and ending up with way more real, authentic Mexican food.",
-		review: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
+		review: "Pretty okay all around, not sure why you would go to Taco Bell over here.",
 		menu: "https://themenustar8.com/webspace/menus.php?code=orderlafiestamexicanbarandgrill.com",
 		order: "https://themenustar8.com/webspace/menus.php?code=orderlafiestamexicanbarandgrill.com",
 		website: "http://orderlafiestamexicanbarandgrill.com/"
@@ -82,7 +82,7 @@ const BarsDiners = [
 		address: "204 W High St, Ebensburg",
 		number: "(814) 472-1205",
 		description: "Has changed a lot over the years, reopened and remodelled after COVID chilled out a little.",
-		review: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
+		review: "Has anybody been ever here since they opened with reservations? Complete mystery.",
 		menu: "https://www.everydaygourmetllc.com/menu/",
 		order: "",
 		website: "https://www.everydaygourmetllc.com/"
