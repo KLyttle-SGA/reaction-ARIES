@@ -27,10 +27,10 @@ const PizzaSubs = [
 		address: "881 Hills Plaza St. 505, Ebensburg",
 		number: "(814) 318-8505",
 		description: "According to our professional pizza tasters, G.I. Dough is home to the best pizza around town. It's very thick and very filling, be ready to save some of that pizza for leftovers.",
-		review: "As stated before, if you're coming for anything, you're probably coming for the pizza. Everything else on their menu is fairly meh. There wasn't much the office could agree on being good otherwise.",
-		menu: "https://weborder7.microworks.com/riknniks/Groups",
-		order: "https://weborder7.microworks.com/riknniks/Groups",
-		website: "http://www.rik-n-niks.com/"
+		review: "As stated before, if you're coming for anything, you're probably coming for the pizza. Everything else on their menu is fairly meh. Under no circumstances should you try the burgers.",
+		menu: "https://www.gidoughmenu.com/",
+		order: "https://slicelife.com/restaurants/pa/ebensburg/15931/g-i-dough/menu?utm_campaign=direct_websites",
+		website: "https://www.gidoughmenu.com/"
 	},
 	{
 		key: 4,

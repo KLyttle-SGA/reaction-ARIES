@@ -48,7 +48,7 @@ const FastFood = [
 		name: "Taco Bell",
 		address: "4482 Admiral Peary Hwy, Ebensburg",
 		number: "(814) 419-4992",
-		description: "I'm at the Pizza Hut. I'm at the Taco Bell. I'm at the combination no Pizza Hut and Taco Bell. Everyone knows Taco Bell, America's biggest taco chain.",
+		description: "I'm not at the Pizza Hut, I'm not at the Taco Bell, I'm absolutely not at the combination Pizza Hut and Taco Bell. Everyone knows Taco Bell, America's biggest and middest taco chain.",
 		review: "Mediocre tacos, not much else. La Fiesta is right down the street if you're looking for Mexican food instead of \"Mexican\" \"food\".",
 		menu: "https://www.tacobell.com/food",
 		order: "https://www.tacobell.com/food",

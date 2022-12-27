@@ -129,8 +129,7 @@ h1 {
 
 .genre-button {
   font-family: "Montserrat";
-	font-size: 3.5vw;
-	font-size: 3.5vh;
+  font-size: 2rem;
   border-radius: 5rem;
   font-weight: 600;
 	text-shadow:
@@ -187,7 +186,7 @@ h1 {
 
 .button-wrapper {
 	display: flex;
-	flex-flow: column wrap;
+/*	flex-flow: column wrap;*/
 	justify-content: space-around;
 }
 
@@ -338,11 +337,11 @@ a.btn > span.glyphicon {
 	background-color: #fff;
 }
 
-.column-flexbox {
+/*.column-flexbox {
 	flex-direction: row;
 	justify-content: stretch;
 	flex: auto;
-}
+}*/
 
 .restaurant-title {
 	text-align: left

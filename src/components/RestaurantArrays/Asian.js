@@ -16,7 +16,7 @@ const Asian = [
 		address: "267 Park Hills Plaza, Altoona",
 		number: "(814) 942-2118",
 		description: "Once again the only hibachi around the area since the unfortunate demise of Wasabi.",
-		review: "Varies a bit over the years, but generally reliably good meals.",
+		review: "Varies a bit over the years, but generally good meals and some epic spatula-weilding hibachi dudes.",
 		menu: "https://akialtoona.weebly.com/menu.html",
 		order: "https://order.aki2118.com/",
 		website: "https://akialtoona.weebly.com/"
@@ -26,8 +26,8 @@ const Asian = [
 		name: "New China",
 		address: "7447 Admiral Peary Hwy, Cresson",
 		number: "(814) 886-5689",
-		description: "The last remaining bastion in the nearby area of Cresson and Ebensburg for not awful Asian food.",
-		review: "Opinions from the office seem to be middling, not amazing, not awful. Way better option than Hong Xin.",
+		description: "The name is a lie, New China is not in fact New or in China, it's in Cresson. The last remaining bastion in the nearby area of Cresson and Ebensburg for not awful Asian food since the unfortunate closure of Wasabi and the Pearl House.",
+		review: "Opinions from the office seem to be middling, not amazing, not awful. Way better option than Hong Xin. As a connessuier of General Tso's, and by that I mean I had it up at Central Cambria High a few times, I'd say it was pretty good and epic.",
 		menu: "http://www.restaurantji.com/pa/cresson/new-china-/menu/",
 		order: "",
 		website: ""

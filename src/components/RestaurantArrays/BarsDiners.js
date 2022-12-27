@@ -60,7 +60,7 @@ const BarsDiners = [
 		address: "4554 Admiral Peary Hwy, Ebensburg",
 		number: "(814) 472-8004",
 		description: "Imagine going up against giants like Taco Bell and ending up with way more real, authentic Mexican food.",
-		review: "Pretty okay all around, not sure why you would go to Taco Bell over here.",
+		review: "Pretty good all around, not sure why you would go to Taco Bell over a place with actually decent food anyway, but oh well.",
 		menu: "https://themenustar8.com/webspace/menus.php?code=orderlafiestamexicanbarandgrill.com",
 		order: "https://themenustar8.com/webspace/menus.php?code=orderlafiestamexicanbarandgrill.com",
 		website: "http://orderlafiestamexicanbarandgrill.com/"
@@ -70,8 +70,8 @@ const BarsDiners = [
 		name: "Off the Rak",
 		address: "3047 New Germany Rd, Ebensburg",
 		number: "(814) 471-1725",
-		description: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
-		review: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
+		description: "Off in the far corner of the plaza on New Germany lays a cozy little place called Off the Rak.",
+		review: "Consensus seems to be okay to pretty good food, just a little pricey and wait times can be a bit long.",
 		menu: "https://www.allmenus.com/pa/ebensburg/754147-off-the-rak/menu/",
 		order: "https://themenustar8.com/webspace/menus.php?code=orderlafiestamexicanbarandgrill.com",
 		website: "http://orderlafiestamexicanbarandgrill.com/"
@@ -81,8 +81,8 @@ const BarsDiners = [
 		name: "Everyday Gourmet",
 		address: "204 W High St, Ebensburg",
 		number: "(814) 472-1205",
-		description: "Has changed a lot over the years, reopened and remodelled after COVID chilled out a little.",
-		review: "Has anybody been ever here since they opened with reservations? Complete mystery.",
+		description: "Has changed a lot over the years, reopened and remodelled after COVID decided to stop being everywhere at all times.",
+		review: "Has anybody been ever here since they opened with reservations? Apparently so, and they all seem to enjoy it.",
 		menu: "https://www.everydaygourmetllc.com/menu/",
 		order: "",
 		website: "https://www.everydaygourmetllc.com/"
@@ -92,8 +92,8 @@ const BarsDiners = [
 		name: "Castle Pub",
 		address: "122 N Center St, Ebensburg",
 		number: "(814) 471-2977",
-		description: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
-		review: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
+		description: "The pub that we spent like 20 good minutes up at the office trying to figure out if it was still open after COVID.",
+		review: "According to everyone's favorite Google Maps Local Guide, Matthew Joines, the ONLY reason to come to Ebensburg! Maybe he's also after the female bartender that Jerry Walters mentions.",
 		menu: "https://www.restaurantji.com/pa/ebensburg/the-castle-pub-/",
 		order: "",
 		website: ""
@@ -103,8 +103,8 @@ const BarsDiners = [
 		name: "Loretto Pub",
 		address: "196 St Mary St, Loretto",
 		number: "(814) 471-0222",
-		description: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
-		review: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
+		description: "Came under new ownership within the last few years, better than ever if Google Reviews are to be believed.",
+		review: "Everyone seems to enjoy the homely vibes, low prices, and good food, but what the great people of Loretto especially love that you can't find anywhere else is MY MAN NATHAN!",
 		menu: "https://foursquare.com/v/loretto-pub--grill/4bc158f9abf49521b20ac193/menu",
 		order: "",
 		website: ""
@@ -114,8 +114,8 @@ const BarsDiners = [
 		name: "Spanky's Tavern",
 		address: "199 St Mary St, Loretto",
 		number: "(814) 419-8014",
-		description: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
-		review: "Uh oh! It seems our professional tasters have not gathered sufficient data on this location yet!",
+		description: "And directly on the other side of the street from the Loretto Pub is Spanky's. I imagine there's a lot of epic drunkard crossovers on that street.",
+		review: "Generally positive reviews, but what we are interested in here at SGA is that it was LARRY BORLIE'S FAVORITE BAR FOUR YEARS AGO! WOOOO YEAH BABY!",
 		menu: "https://www.menupix.com/pennsylvania/restaurants/340814/Spankys-Cafe-Loretto-PA",
 		order: "",
 		website: ""
