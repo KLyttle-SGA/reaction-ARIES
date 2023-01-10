@@ -1,4 +1,5 @@
 ﻿import React from "react";
+import Tags from "./Tags.js"
 
 function TitleName() {
 	return (
@@ -21,9 +22,7 @@ function TitleName() {
 					</p>
 				</div>
 
-				<form className="form-group">
-					<input type="search" className="form-control search-bar" id="search" placeholder="Search" autoComplete="off"/>
-				</form>
+				<Tags maxTagCount="10"/>
 
 			</div>
 
