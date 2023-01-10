@@ -111,4 +111,7 @@ const PizzaSubs = [
 	}
 ];
 
+console.log(PizzaSubs);
+console.log(JSON.stringify(PizzaSubs));
+
 export default PizzaSubs;

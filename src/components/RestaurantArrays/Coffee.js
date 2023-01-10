@@ -23,4 +23,7 @@ const Coffee = [
 	}
 ];
 
+console.log(Coffee);
+console.log(JSON.stringify(Coffee));
+
 export default Coffee;

@@ -45,4 +45,7 @@ const Asian = [
 	}
 ];
 
+console.log(Asian);
+console.log(JSON.stringify(Asian));
+
 export default Asian;

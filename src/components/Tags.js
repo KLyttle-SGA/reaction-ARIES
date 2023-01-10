@@ -18,13 +18,13 @@ const Tags = (props) => {
             setTags(tagsCopy);
         }
         else if (tags.length < 1 && event.key === "Backspace") {
-            setError("Since there is no tags you can't able to delete any tags");
+            setError("There are no more tags to delete.");
         }
         else if (tags.length >= props.maxTagCount) {
-            setError("You can't add more tags");
+            setError("You can't add more than 12 tags.");
         }
         else if (event.target.value == "" && event.key === "Enter") {
-            setError("The tag should be one character long!");
+            setError("Tag should be at least one character long.");
         }
     };
 

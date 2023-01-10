@@ -34,4 +34,7 @@ const Treats = [
 	}
 ];
 
+console.log(Treats);
+console.log(JSON.stringify(Treats));
+
 export default Treats;
