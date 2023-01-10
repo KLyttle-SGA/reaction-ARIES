@@ -1,9 +1,9 @@
-import PizzaSubs from '../components/RestaurantArrays/JSON/PizzaSubs.json';
-import BarsDiners from '../components/RestaurantArrays/JSON/BarsDiners.json';
-import Asian from '../components/RestaurantArrays/JSON/Asian.json';
-import FastFood from '../components/RestaurantArrays/JSON/FastFood.json';
-import Treats from '../components/RestaurantArrays/JSON/Treats.json';
-import Coffee from '../components/RestaurantArrays/JSON/Coffee.json';
+import PizzaSubs from '../components/RestaurantArrays/PizzaSubs.json';
+import BarsDiners from '../components/RestaurantArrays/BarsDiners.json';
+import Asian from '../components/RestaurantArrays/Asian.json';
+import FastFood from '../components/RestaurantArrays/FastFood.json';
+import Treats from '../components/RestaurantArrays/Treats.json';
+import Coffee from '../components/RestaurantArrays/Coffee.json';
 import CreateCard from '../components/Card.jsx';
 
 function Restaurants(props) {
