@@ -26,52 +26,52 @@ function Restaurants(props) {
 
 	return (
 		<div>
-		<span id="pizza-sub"></span>
-		<h1 className="genre-titles" id="first-title">PIZZA & SUBS</h1>
-		<section className="restaurant-cards">
-			<div className="row restaurants">
-				{PizzaSubs.map(CreatePSCard)}	
-			</div>
-		</section>
+			<span id="pizza-sub"></span>
+			<h1 className="genre-titles" id="first-title">PIZZA & SUBS</h1>
+			<section className="restaurant-cards">
+				<div className="row restaurants">
+					{PizzaSubs.map(CreatePSCard)}
+				</div>
+			</section>
 
-		<span id="bars-diners"></span>
-		<h1 className="genre-titles">BARS & DINERS</h1>
-		<section className="restaurant-cards">
-			  <div className="row restaurants">
-				 {BarsDiners.map(CreatePSCard)}
-			</div>
-		</section>
+			<span id="bars-diners"></span>
+			<h1 className="genre-titles">BARS & DINERS</h1>
+			<section className="restaurant-cards">
+				<div className="row restaurants">
+					{BarsDiners.map(CreatePSCard)}
+				</div>
+			</section>
 
-		<span id="asian"></span>
-		<h1 className="genre-titles">ASIAN</h1>
-		<section className="restaurant-cards">
-			<div className="row restaurants">
-				  {Asian.map(CreatePSCard)}
-			</div>
-		</section>
+			<span id="asian"></span>
+			<h1 className="genre-titles">ASIAN</h1>
+			<section className="restaurant-cards">
+				<div className="row restaurants">
+					{Asian.map(CreatePSCard)}
+				</div>
+			</section>
 
-		<span id="fast-food"></span>
-		<h1 className="genre-titles">FAST FOOD</h1>
-		<section className="restaurant-cards">
-			<div className="row restaurants">
-				  {FastFood.map(CreatePSCard)}
-			</div>
-		</section>
+			<span id="fast-food"></span>
+			<h1 className="genre-titles">FAST FOOD</h1>
+			<section className="restaurant-cards">
+				<div className="row restaurants">
+					{FastFood.map(CreatePSCard)}
+				</div>
+			</section>
 
-		<span id="treats"></span>
-		<h1 className="genre-titles">TREATS</h1>
-		<section className="restaurant-cards">
-			<div className="row restaurants">
-				  {Treats.map(CreatePSCard)}
-			</div>
-		</section>
+			<span id="treats"></span>
+			<h1 className="genre-titles">TREATS</h1>
+			<section className="restaurant-cards">
+				<div className="row restaurants">
+					{Treats.map(CreatePSCard)}
+				</div>
+			</section>
 
-		<span id="coffee"></span>
-		<h1 className="genre-titles">COFFEE</h1>
-		<section className="restaurant-cards">
-			<div className="row restaurants">
-				  {Coffee.map(CreatePSCard)}
-			</div>
+			<span id="coffee"></span>
+			<h1 className="genre-titles">COFFEE</h1>
+			<section className="restaurant-cards">
+				<div className="row restaurants">
+					{Coffee.map(CreatePSCard)}
+				</div>
 			</section>
 		</div>
 	);
