@@ -13,10 +13,6 @@ function CreateCard(props) {
 						<p>
 							{props.address}
 							<br/>
-							{/*<span className="separation-bar bar-2card">|</span>*/}
-							{/*<br className="card-info-break break-2card" />*/}
-							{/*<span className="separation-bar bar-1card">|</span>*/}
-							{/*<br className="card-info-break break-1card" />*/}
 							{props.number}
 						</p>
 					</div>
