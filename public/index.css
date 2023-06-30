@@ -3,8 +3,7 @@
 body {
 	margin: 0;
 	overflow-x: hidden !important;
-
-	background-color: #e0edff;
+	background-color: #4a5059;
 	background-image: url("https://transparenttextures.com/patterns/always-grey.png");
 }
 
@@ -41,7 +40,7 @@ h1 {
 	height: 80px;
 	border-radius: 50%;
 	z-index: 3;
-	margin-left: 3.8em;
+	/*margin-left: 3.8em;*/
 	box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.5);
 	font-size: 30px;
 }
@@ -69,10 +68,12 @@ h1 {
 .title-container {
 	font-family: "Montserrat";
 	font-weight: 300;
-	background-image: linear-gradient(#121b5caa, #140f3b);
+	background-image: linear-gradient(#212529, #212529);
 	text-align: center;
+	align-content: center;
+	align-items: center;
 	color: white;
-	padding: 8.5% 0 1% 0;
+	padding: 21% 0 22% 0;
 	text-shadow: 0px 0px 3px rgba(66,167,245,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
 }
 
@@ -82,7 +83,7 @@ h1 {
 
 .subtitle {
 	font-size: 1.5vw;
-	background: -webkit-linear-gradient(#feffc9, #ffab73);
+	background: -webkit-linear-gradient(#feffc9, #f0843c);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
@@ -96,18 +97,27 @@ h1 {
 
 #title-text {
 	font-weight: 600;
+	font-size: 7rem;
+	padding-bottom: 40px;
+	padding-top: 35px;
+}
+
+{ /*.title-text2 {
+	font-weight: 600;
 	font-size: 5vw;
 	padding-bottom: 40px;
 	padding-top: 35px;
-	background: -webkit-linear-gradient(#73abff, #feffc9);
+	background: -webkit-linear-gradient(#4187f0, #feffc9);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}*/
 }
 
-#title-buttons {
+{ /*#title-buttons {
 	text-align: center;
 	padding: 0 10% 12% 10%;
 	background-image: linear-gradient(#140f3b, #121b5c);
+}*/
 }
 
 #title {
@@ -291,10 +301,9 @@ a.btn > span.glyphicon {
 	margin-top: 1.5rem;
 	height: 10rem;
 	line-height: 10rem;
-	font-size: 6vw;
-	font-size: 6vh;
+	font-size: 4rem;
 	font-family: "Montserrat";
-	background-color: #192478;
+	background-color: #212529;
 	color: #fff;
 	text-align: center;
 	vertical-align: middle;
@@ -330,11 +339,12 @@ a.btn > span.glyphicon {
 
 .food-page {
 	font-size: 1.8rem;
-	border: solid;
+	/*border: solid 2px;*/
+	padding: 1px 0;
 	border-radius: 24px;
-	border: solid;
 	box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
-	background-color: #fff;
+	background-color: #212529;
+	color: white;
 }
 
 /*.column-flexbox {
@@ -349,7 +359,7 @@ a.btn > span.glyphicon {
 
 .restaurant-title > h2 {
 	font-size: 2.5rem;
-	margin-top: 1.5rem;
+	margin-top: 1rem;
 	margin-left: 1.5rem;
 	margin-bottom: -0.5rem;
 	font-weight: 600;
@@ -357,22 +367,23 @@ a.btn > span.glyphicon {
 
 .address-number {
 	font-size: 1rem;
+	font-weight: 300;
 	margin-left: 1.5rem;
 	margin-top: 0.5rem;
 }
 
-.top-border {
-	border-top: solid;
-}
+/*.top-border {
+	border-top: solid 2px;
+}*/
 
 .button-top-margin {
 	margin-top: 1.5rem;
 }
 
 .review {
-	margin: 1.5rem 1.5rem 0 1.5rem;
+	margin: 0 1.5rem 0 1.5rem;
 	padding: 0.5rem;
-	border: solid;
+	/*border: solid 2px;*/
 	border-radius: 15px;
 	font-size: 1.25rem;
 	display: flex;
@@ -381,16 +392,15 @@ a.btn > span.glyphicon {
 }
 
 .description {
-	margin: 1.5rem 1.5rem 0 1.5rem;
+	margin: 0 1.5rem 0 1.5rem;
 	padding: 0.5rem;
-	border: solid;
+	/*border: solid 2px;*/
 	border-radius: 15px;
 	font-size: 1.25rem;
 	top: 50%;
-
 	display: flex;
-  justify-content: center;
-  align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .description-title > p {
@@ -412,7 +422,7 @@ a.btn > span.glyphicon {
 .cards-section-header {
 	font-weight: 600;
 	font-size: 1.5rem;
-	margin: 0.75rem 0 -1rem 0;
+	margin: 1rem 0 -1rem 0;
 }
 
 /* Footer */
@@ -422,7 +432,7 @@ a.btn > span.glyphicon {
   font-size: 24px;
   font-family: "Montserrat";
   font-weight: 600;
-  color: #000;
+  color: #fff;
   text-align: center;
   vertical-align: middle;
   line-height: 15px;
@@ -432,7 +442,7 @@ a.btn > span.glyphicon {
 	font-size: 19px;
 	font-weight: 300;
 	font-family: "Montserrat";
-	color: #000;
+	color: #fff;
 	text-align: center;
 	vertical-align: middle;
 	height: 6rem;
@@ -493,6 +503,7 @@ a.btn > span.glyphicon {
 
 	.address-number > p {
 		font-size: 0.8rem;
+		font-weight: 300;
 	}
 }
 
@@ -507,4 +518,46 @@ a.btn > span.glyphicon {
 
 .nav-button:hover, .genre-button:hover, .card-button:hover {
 	animation: bouncy 1s ease-out;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.dropdown {
+	z-index: 2;
+}
+
+@media (min-width: 992px) {
+	.nav-item {
+		border-left: solid 1px #50565c;
+		padding: 0 0.75rem 0 0.75rem;
+	}
+}
+
+.card-collapse-button {
+	background: #3a3c47;
+	border-radius: 15px;
+	margin-left: 0.5rem;
+	margin-right: 1rem;
+	cursor: pointer;
+	color: #a3a3a3;
+	padding-left: 0.85rem;
+	padding-right: 0.85rem;
+}
+
+	.card-collapse-button:hover {
+		color: #c2c2c2
+	}
+
+.nav-item.card-collapse {
+	border: none;
+	margin-left: 0;
+	margin-right: 0.5rem;
+}
+
+.navbar-brand {
+	margin-right: 0;
 }

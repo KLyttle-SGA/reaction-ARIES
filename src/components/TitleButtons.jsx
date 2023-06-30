@@ -4,7 +4,7 @@ function TitleButtons() {
 	return (
 		<section id="title-buttons">
 
-			<div className="row restaurant-genre">
+			{/*<div className="row restaurant-genre">
 
 				<div type="button" className="restaurant-column col-lg-6">
 					<a href="#pizza-sub" className="d-grid gap-2 title-button">
@@ -37,7 +37,7 @@ function TitleButtons() {
 					</a>
 				</div>
 
-			</div>
+			</div>*/}
 		</section>
 	);
 }

@@ -41,6 +41,14 @@ const Tags = (props) => {
     return (
         <>
             <div className="tags">
+                <input
+                    className="form-control search-bar"
+                    type="text"
+                    onKeyDown={event => handleTags(event)}
+                    onChange={handleError}
+                    placeholder="Search by Tags"
+                />
+
                 {tags.map((tag, index) => (
                     <div className="single-tag" key={index}>
                         <span>{tag}</span>
@@ -51,14 +59,6 @@ const Tags = (props) => {
                         </i>
                     </div>
                 ))}
-
-                <input
-                    className="form-control search-bar"
-                    type="text"
-                    onKeyDown={event => handleTags(event)}
-                    onChange={handleError}
-                    placeholder="Search by Tags (dev)"
-                />
             </div>
 
             <div className="error">
